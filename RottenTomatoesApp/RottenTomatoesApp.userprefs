@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RottenTomatoes.IOSApp/Controllers/TableGroupItems.cs">
+    <Files>
+      <File FileName="RottenTomatoes.IOSApp/Controllers/CustomCell.cs" Line="1" Column="1" />
+      <File FileName="RottenTomatoes.IOSApp/Controllers/MovieInfo.cs" Line="114" Column="46" />
+      <File FileName="RottenTomatoesBusinessLogic/Models/CriticInfo.cs" Line="1" Column="1" />
+      <File FileName="RottenTomatoesBusinessLogic/FillMoviesList.cs" Line="195" Column="4" />
+      <File FileName="RottenTomatoes.IOSApp/Controllers/TableGroupItems.cs" Line="7" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>RottenTomatoes.IOSApp/RottenTomatoes.IOSApp.csproj</String>
+  </DisabledProjects>
+</Properties>

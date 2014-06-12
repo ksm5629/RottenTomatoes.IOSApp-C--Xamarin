@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RottenTomatoesBusinessLogic", "RottenTomatoesBusinessLogic\RottenTomatoesBusinessLogic.csproj", "{189DAE6E-2B2B-4B76-BCBB-E3DF9BF2E006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RottenTomatoes.IOSApp", "RottenTomatoes.IOSApp\RottenTomatoes.IOSApp.csproj", "{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RottenTomatoes.IOSApp", "RottenTomatoes.IOSApp\RottenTomatoes.IOSApp.csproj", "{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{189DAE6E-2B2B-4B76-BCBB-E3DF9BF2E006}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{189DAE6E-2B2B-4B76-BCBB-E3DF9BF2E006}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{189DAE6E-2B2B-4B76-BCBB-E3DF9BF2E006}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{189DAE6E-2B2B-4B76-BCBB-E3DF9BF2E006}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{189DAE6E-2B2B-4B76-BCBB-E3DF9BF2E006}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{189DAE6E-2B2B-4B76-BCBB-E3DF9BF2E006}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{189DAE6E-2B2B-4B76-BCBB-E3DF9BF2E006}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{189DAE6E-2B2B-4B76-BCBB-E3DF9BF2E006}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{189DAE6E-2B2B-4B76-BCBB-E3DF9BF2E006}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{189DAE6E-2B2B-4B76-BCBB-E3DF9BF2E006}.Release|iPhone.Build.0 = Release|Any CPU
+		{189DAE6E-2B2B-4B76-BCBB-E3DF9BF2E006}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{189DAE6E-2B2B-4B76-BCBB-E3DF9BF2E006}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Debug|iPhone.Build.0 = Debug|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Debug|iPhone.Build.0 = Debug|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Release|iPhone.ActiveCfg = Release|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Release|iPhone.ActiveCfg = Release|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Release|iPhone.Build.0 = Release|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Release|iPhone.Build.0 = Release|iPhone
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{3ACDEEB1-1E08-4B8D-BB91-499CB125F153}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = RottenTomatoesBusinessLogic\RottenTomatoesBusinessLogic.csproj
+	EndGlobalSection
+EndGlobal

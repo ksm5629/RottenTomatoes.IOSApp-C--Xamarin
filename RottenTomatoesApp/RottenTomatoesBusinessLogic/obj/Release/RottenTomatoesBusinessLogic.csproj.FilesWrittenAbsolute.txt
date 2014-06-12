@@ -1,0 +1,9 @@
+/Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoesBusinessLogic/obj/Release/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoesBusinessLogic/bin/Release/RottenTomatoesBusinessLogic.dll.mdb
+/Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoesBusinessLogic/bin/Release/RottenTomatoesBusinessLogic.dll
+/Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoesBusinessLogic/obj/Release/RottenTomatoesBusinessLogic.dll
+/Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoesBusinessLogic/obj/Release/RottenTomatoesBusinessLogic.dll.mdb
+/Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoesBusinessLogic/bin/Release/Newtonsoft.Json.dll
+/Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoesBusinessLogic/bin/Release/System.Net.Http.dll
+/Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoesBusinessLogic/bin/Release/System.Net.Http.Primitives.dll
+/Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoesBusinessLogic/bin/Release/System.Net.Http.Extensions.dll

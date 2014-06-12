@@ -1,0 +1,135 @@
+2014-06-11 21:19:23.278 RottenTomatoesIOSApp[625:1303] MonoTouch: Socket error while connecting to MonoDevelop on 127.0.0.1:10000: Connection refused
+2014-06-11 21:20:47.425 RottenTomatoesIOSApp[625:70b] CompleteCast count2
+2014-06-11 21:20:47.425 RottenTomatoesIOSApp[625:70b] Abridged Cast Count5
+
+Unhandled Exception:
+System.AggregateException:  ---> System.Net.Http.HttpRequestException: 403 (Forbidden)
+  at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode () [0x0000d] in /Developer/MonoTouch/Source/mono/mcs/class/System.Net.Http/System.Net.Http/HttpResponseMessage.cs:122 
+  at System.Net.Http.HttpClient+<GetStringAsync>c__async5.MoveNext () [0x0009d] in /Developer/MonoTouch/Source/mono/mcs/class/System.Net.Http/System.Net.Http/HttpClient.cs:321 
+  --- End of inner exception stack trace ---
+  at System.Threading.Tasks.Task.Wait (Int32 millisecondsTimeout, CancellationToken cancellationToken) [0x0004b] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Threading.Tasks/Task.cs:698 
+  at System.Threading.Tasks.Task.Wait () [0x00000] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Threading.Tasks/Task.cs:666 
+  at System.Threading.Tasks.Task`1[System.String].get_Result () [0x0000b] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Threading.Tasks/Task_T.cs:48 
+  at RottenTomatoesBusinessLogic.FillMoviesList+<BoxOfficeMoviesHelper>c__async0.MoveNext () [0x003e3] in /Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoesBusinessLogic/FillMoviesList.cs:109 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[System.Collections.Generic.List`1[RottenTomatoesBusinessLogic.MovieEntry]].Start[<BoxOfficeMoviesHelper>c__async0] (RottenTomatoesBusinessLogic.<BoxOfficeMoviesHelper>c__async0& stateMachine) [0x0001b] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Runtime.CompilerServices/AsyncTaskMethodBuilder_T.cs:107 
+  at RottenTomatoesBusinessLogic.FillMoviesList.BoxOfficeMoviesHelper (System.String Url) [0x00000] in <filename unknown>:0 
+  at RottenTomatoesBusinessLogic.FillMoviesList+<BoxOfficeMovies>c__async1.MoveNext () [0x000cb] in /Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoesBusinessLogic/FillMoviesList.cs:278 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000b] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Runtime.ExceptionServices/ExceptionDispatchInfo.cs:62 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[RottenTomatoesBusinessLogic.ListOfMoviesFromBoxOffice].GetResult () [0x00034] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Runtime.CompilerServices/TaskAwaiter_T.cs:59 
+  at RottenTomatoes.IOSApp.RottenTomatoesTableViewController+<LoadMoviesAsync>c__async2.MoveNext () [0x00072] in /Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoes.IOSApp/Controllers/RottenTomatoesTableViewController.cs:66 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000b] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Runtime.ExceptionServices/ExceptionDispatchInfo.cs:62 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00034] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Runtime.CompilerServices/TaskAwaiter.cs:60 
+  at RottenTomatoes.IOSApp.RottenTomatoesTableViewController+<ViewDidAppear>c__async1.MoveNext () [0x00033] in /Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoes.IOSApp/Controllers/RottenTomatoesTableViewController.cs:62 
+ --> (Inner exception 0) System.Net.Http.HttpRequestException: 403 (Forbidden)
+  at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode () [0x0000d] in /Developer/MonoTouch/Source/mono/mcs/class/System.Net.Http/System.Net.Http/HttpResponseMessage.cs:122 
+  at System.Net.Http.HttpClient+<GetStringAsync>c__async5.MoveNext () [0x0009d] in /Developer/MonoTouch/Source/mono/mcs/class/System.Net.Http/System.Net.Http/HttpClient.cs:321 
+
+2014-06-11 21:25:22.160 RottenTomatoesIOSApp[625:70b] Unhandled managed exception:  (System.AggregateException)
+  at System.Threading.Tasks.Task.Wait (Int32 millisecondsTimeout, CancellationToken cancellationToken) [0x0004b] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Threading.Tasks/Task.cs:698 
+  at System.Threading.Tasks.Task.Wait () [0x00000] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Threading.Tasks/Task.cs:666 
+  at System.Threading.Tasks.Task`1[System.String].get_Result () [0x0000b] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Threading.Tasks/Task_T.cs:48 
+  at RottenTomatoesBusinessLogic.FillMoviesList+<BoxOfficeMoviesHelper>c__async0.MoveNext () [0x003e3] in /Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoesBusinessLogic/FillMoviesList.cs:109 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[System.Collections.Generic.List`1[RottenTomatoesBusinessLogic.MovieEntry]].Start[<BoxOfficeMoviesHelper>c__async0] (RottenTomatoesBusinessLogic.<BoxOfficeMoviesHelper>c__async0& stateMachine) [0x0001b] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Runtime.CompilerServices/AsyncTaskMethodBuilder_T.cs:107 
+  at RottenTomatoesBusinessLogic.FillMoviesList.BoxOfficeMoviesHelper (System.String Url) [0x00000] in <filename unknown>:0 
+  at RottenTomatoesBusinessLogic.FillMoviesList+<BoxOfficeMovies>c__async1.MoveNext () [0x000cb] in /Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoesBusinessLogic/FillMoviesList.cs:278 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000b] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Runtime.ExceptionServices/ExceptionDispatchInfo.cs:62 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[RottenTomatoesBusinessLogic.ListOfMoviesFromBoxOffice].GetResult () [0x00034] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Runtime.CompilerServices/TaskAwaiter_T.cs:59 
+  at RottenTomatoes.IOSApp.RottenTomatoesTableViewController+<LoadMoviesAsync>c__async2.MoveNext () [0x00072] in /Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoes.IOSApp/Controllers/RottenTomatoesTableViewController.cs:66 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000b] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Runtime.ExceptionServices/ExceptionDispatchInfo.cs:62 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00034] in /Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Runtime.CompilerServices/TaskAwaiter.cs:60 
+  at RottenTomatoes.IOSApp.RottenTomatoesTableViewController+<ViewDidAppear>c__async1.MoveNext () [0x00033] in /Users/karanmoodbidri/Projects/RottenTomatoesApp/RottenTomatoes.IOSApp/Controllers/RottenTomatoesTableViewController.cs:62 
+mono-rt: Stacktrace:
+
+
+mono-rt: 
+Native stacktrace:
+
+
+mono-rt: 	0   RottenTomatoesIOSApp                0x000c3b77 mono_handle_native_sigsegv + 327
+
+mono-rt: 	1   RottenTomatoesIOSApp                0x000ce9ba sigabrt_signal_handler + 122
+
+mono-rt: 	2   libsystem_platform.dylib            0x054dcdeb _sigtramp + 43
+
+mono-rt: 	3   ???                                 0xffffffff 0x0 + 4294967295
+
+mono-rt: 	4   libsystem_sim_c.dylib               0x0533b9c9 abort + 127
+
+mono-rt: 	5   RottenTomatoesIOSApp                0x0024cf33 monotouch_unhandled_exception_handler + 291
+
+mono-rt: 	6   RottenTomatoesIOSApp                0x000c43bb mono_invoke_unhandled_exception_hook + 91
+
+mono-rt: 	7   RottenTomatoesIOSApp                0x000c33cc mono_handle_exception_internal + 6620
+
+mono-rt: 	8   RottenTomatoesIOSApp                0x000c19e9 mono_handle_exception + 41
+
+mono-rt: 	9   RottenTomatoesIOSApp                0x0005c1d9 mono_x86_throw_exception + 137
+
+mono-rt: 	10  ???                                 0x0e792e57 0x0 + 242822743
+
+mono-rt: 	11  ???                                 0x1554a71a 0x0 + 357869338
+
+mono-rt: 	12  ???                                 0x1554a6ae 0x0 + 357869230
+
+mono-rt: 	13  ???                                 0x0ffa0b11 0x0 + 268045073
+
+mono-rt: 	14  RottenTomatoesIOSApp                0x000f595b mono_jit_runtime_invoke + 843
+
+mono-rt: 	15  RottenTomatoesIOSApp                0x00193f5f mono_runtime_invoke + 127
+
+mono-rt: 	16  RottenTomatoesIOSApp                0x00243c2f monotouch_trampoline + 4991
+
+mono-rt: 	17  libobjc.A.dylib                     0x0502982b -[NSObject performSelector:withObject:] + 70
+
+mono-rt: 	18  Foundation                          0x01d28e48 __NSThreadPerformPerform + 285
+
+mono-rt: 	19  CoreFoundation                      0x015c277f __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 15
+
+mono-rt: 	20  CoreFoundation                      0x015c210b __CFRunLoopDoSources0 + 235
+
+mono-rt: 	21  CoreFoundation                      0x015df1ae __CFRunLoopRun + 910
+
+mono-rt: 	22  CoreFoundation                      0x015de9d3 CFRunLoopRunSpecific + 467
+
+mono-rt: 	23  CoreFoundation                      0x015de7eb CFRunLoopRunInMode + 123
+
+mono-rt: 	24  GraphicsServices                    0x062635ee GSEventRunModal + 192
+
+mono-rt: 	25  GraphicsServices                    0x0626342b GSEventRun + 104
+
+mono-rt: 	26  UIKit                               0x029f3f9b UIApplicationMain + 1225
+
+mono-rt: 	27  ???                                 0x0ffad2ac 0x0 + 268096172
+
+mono-rt: 	28  ???                                 0x0ffac13c 0x0 + 268091708
+
+mono-rt: 	29  ???                                 0x0ffabec0 0x0 + 268091072
+
+mono-rt: 	30  ???                                 0x0ffabf4f 0x0 + 268091215
+
+mono-rt: 	31  RottenTomatoesIOSApp                0x000f595b mono_jit_runtime_invoke + 843
+
+mono-rt: 	32  RottenTomatoesIOSApp                0x00193f5f mono_runtime_invoke + 127
+
+mono-rt: 	33  RottenTomatoesIOSApp                0x00199a71 mono_runtime_exec_main + 401
+
+mono-rt: 	34  RottenTomatoesIOSApp                0x00199834 mono_runtime_run_main + 628
+
+mono-rt: 	35  RottenTomatoesIOSApp                0x000543fd mono_jit_exec + 93
+
+mono-rt: 	36  RottenTomatoesIOSApp                0x00234e70 main + 2784
+
+mono-rt: 	37  RottenTomatoesIOSApp                0x00002e15 start + 53
+
+mono-rt: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+
